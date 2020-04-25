@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>
+design a form
+</title>
+</head>
+<body>
+<h1><center><font face="times new roman" color="green">Login Information</font></center></h1>
+<form action="abc.php" method="post">
+User name:<input type="text" size="6" required maxlength="5" placeholder="Enter you name"><br><br>
+Password:<input type="password"><br><br>
+Telephone number:<input type="tel"><br><br>
+Email ID:<input type="tel"><br><br>
+Gender:<input type="radio" name="gender" value="male">male
+ <input type="radio" name="gender" value="female" checked>female
+<input type="radio" name="gender" value="other">other<br><br>
+hobbies:<input type="checkbox" name="hobbies" value="singing">singing
+<input type="checkbox" name="hobbies" value="cricket">cricket
+<input type="checkbox" name="hobbies" value="swimming">swimming<br><br>
+Date of birth:<input type="date"><br><br>
+time:<input type="time"><br><br>
+date and time:<input type="datetime-local"><br><br>
+month:<input type="month"><br><br>
+week:<input type="week"><br><br>
+color:<input type="color"><br><br>
+Add a webpage:<input type="url"><br><br>
+no. of family members:<input type="number" min="2" max="6"><br><br>
+rate us:<input type="range"><br><br>
+upload your marksheet:<input type="file" accept=".jpg,.pdf" multiple><br><br>
+<input type="reset" value="Reset"><br><br>
+<input type="button" value="click me" onclick="msg()"><br><br>
+<input type="image" src="3.jpg" width="600" height="50"><br><br>
+Find:<input type="search"><br><br>
+<input type="submit" value="submit" autofocus><br><br>
+<input type="number" step="4">
+</form>
+<script>
+function msg()
+    {
+         alert("information uploaded successfully");
+    }
+</script>
+</body>
+</html>
